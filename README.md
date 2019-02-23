@@ -49,7 +49,7 @@ conn.close()<br>
 !!OPEN Terminal!!   *[打開兩個terminal]*<br>
 --第一個terminal--<br>
 >>cd ~/桌面   「輸入你自己存放的地方」<br>
->>pthon tcpserver.py<br>
+>>python tcpserver.py<br>
 
 --第二個terminal--<br>
 >>cd ~/桌面<br>
