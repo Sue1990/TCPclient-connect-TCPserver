@@ -36,6 +36,7 @@ print 'connect address',repr(addr)<br>
 
 #conn means : request object <br>
 #addr means : client's address:  host:port<br>
+
 while True:<br>
   data=conn.recv(4096)<br>
   if not data: break<br>
