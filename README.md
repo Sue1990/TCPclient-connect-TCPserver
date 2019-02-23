@@ -3,9 +3,9 @@
 
 TCP Client:
 
-import socket
+import socket<br>
 
-host='0.0.0.0'
+host='0.0.0.0'<br>
 port=50007
 
 client=socket.socket(socket.AF.INET,socket.SOCK_STREAM)#AF_INET：使用標準的IPv4地址或主機名，SOCK_STREAM：說明這是一個TCP服務器
