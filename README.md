@@ -46,6 +46,21 @@ conn.close()<br>
   
 
 
+!!OPEN Terminal!!   *[打開兩個terminal]*<br>
+--第一個terminal--<br>
+>>cd ~/桌面   「輸入你自己存放的地方」<br>
+>>pthon tcpserver.py<br>
 
+--第二個terminal--<br>
+>>cd ~/桌面<br>
+>>python tcpclient.py<br>
+
+server端顯示的是：<br>
+connect address ('127.0.0.1',33142)<br>
+'Hello erver...I am client'<br>
+
+client端顯示的是：<br>
+Ready to send "Hello Server...."<br>
+Accept data from server 'Hello Server...I am client'  #這裡是 伺服器將之前收到的資料再回傳給 client，然後列印出<br>
 
 
